@@ -9,14 +9,14 @@ nav_order: 5
 
 <!-- _pages/teaching.md -->
 <div class="teaching">
-{% if site.data.teaching %}
-  {% for year in site.data.teaching %}
+{%- if site.teaching %}
+  {% for year in site.teaching %}
   <h2 class="year">{{ year }}</h2>
-  {% assign sorted_courses = site.data.teaching[year] | sort: "importance" %}
+  {% assign sorted_courses = site.teaching[year] | sort: "importance" %}
   <!-- Generate cards for each course -->
   <div class="grid">
 	{% for course in sorted_courses %}
-	  {% include course.html %}
+	  {% include projects.html %}
 	{% endfor %}
   </div>
   {% endfor %}
