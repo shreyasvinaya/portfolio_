@@ -13,45 +13,57 @@
     - title: MSc Chemistry
       institution: Birla Institute of Technology And Science, Pilani (BITS Pilani)
       year: 2025
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+      # description:
+      #   - Description 1.
+      #   - Description 2.
+      #   - title: Description 3.
+      #     contents:
+      #       - Sub-description 1.
+      #       - Sub-description 2.
     - title: BE Computer Science
       institution: Birla Institute of Technology And Science, Pilani (BITS Pilani)
       year: 2025
-      description:
-        - Description 1.
-        - Description 2.
+      # description:
+      #   - Description 1.
+      #   - Description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Intern
+      institution: Deep Forest Sciences
+      year: 2023 
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Contributed to open-source drug discovery toolkit - Deepchem
+        - Migrated models to PyTorch, boosting user base by 92%
+        - Building Tools for AI aided Drug Discovery
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    - title: Student Researcher
+      institution: APPCAIR, Birla Institute of Technology & Science, Pilani
+      year: 2022
+      description:
+        - title: Bioinformatics
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Surveyed the usage of BERT and Transformer based architectures to predict Protein Residue binding locations
+            - Devised deep learning methods to Predict Protein Residue binding
+        - title: Drug Discovery
+          contents:
+            - Examining the usage of Large Language Models to generate and synthesize novel molecules for drug discovery
+        - title: Natural Language Processing
+          contents:
+            - Surveyed the usage of Large Language Models to generate questions and answers
+
+    - title: Research Intern
+      institution: Amrita Vishwa Vidyapeetham
+      year: 2021 - 2023
       description:
-        - Description 1.
-        - Description 2.
+        - Published a Paper Titled "Speech to Equation Conversion using a PoE Tagger"
+        - Built a Novel architecture to deal with variability in the way math equations are spoken
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
+    - title: Data Science Intern
       institution: Karl-Ferdinand University, Prague, Czechoslovakia
       year: 1911 - 1917
       description:
@@ -63,34 +75,39 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/deepchem/deepchem">Deepchem</a>
+      year: 2023-now
+      description: Democratizing Deep-Learning for Drug Discovery, Quantum Chemistry, Materials Science and Biology
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 1921
+#       items: 
+#         - Nobel Prize in Physics 
+#         - Matteucci Medal
+#     - year: 2029
+#       items: 
+#         - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Natural Language Processing
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Large Language Models
+        - Text Generation
+        - Applications of NLP in Science
+    - title: Drug Discovery
       items:
-        - Description 1.
-        - Description 2.
+        - Small Molecule Drug Discovery
+    - title: Molecular Machine Learning
+      items:
+        - Molecule Generation
+        - Molecular Property Prediction
+        - Molecular Representation Learning
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Singing, Formula 1, etc.
