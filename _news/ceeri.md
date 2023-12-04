@@ -1,0 +1,8 @@
+---
+layout: post
+date: 2022-06-01 15:59:00-0530
+inline: true
+related_posts: false
+---
+
+I have joined CEERI Chennai as an Intern. I will be working on rPPG on resource constrained devices.

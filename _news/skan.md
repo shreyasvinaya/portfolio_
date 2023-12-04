@@ -1,0 +1,8 @@
+---
+layout: post
+date: 2022-06-01 15:59:00-0530
+inline: true
+related_posts: false
+---
+
+I have joined <a href="http://skan.ai">Skan.ai</a> as a Data Science Intern. 
