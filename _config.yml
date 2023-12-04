@@ -272,8 +272,8 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 
 scholar:
 
-  last_name: [V]
-  first_name: [Shreyas]
+  last_name: [V, Vinaya, Shreyas]
+  first_name: [Shreyas, V, Vinaya]
 
   style: apa
   locale: en
