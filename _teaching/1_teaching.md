@@ -5,6 +5,7 @@ description: CTE course
 img: assets/img/12.jpg
 importance: 1
 category: work
+year: 2023
 ---
 
 Every project has a beautiful feature showcase page.
