@@ -10,7 +10,7 @@ authors:
 - name: Shreyas V
     url: "https://shreyasvinaya.github.io/folio/"
     affiliations:
-    name: BITS Pilani, Goa Campus
+      name: BITS Pilani, Goa Campus
 
 
 toc:

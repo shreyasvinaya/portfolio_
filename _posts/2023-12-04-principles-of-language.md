@@ -8,9 +8,8 @@ date: 2023-12-04
 
 author:
 - name: Shreyas V
-    url: "https://shreyasvinaya.github.io/folio/"
     affiliations:
-    name: BITS Pilani, Goa Campus
+      name: BITS Pilani, Goa Campus
 
 
 
