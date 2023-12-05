@@ -1,0 +1,87 @@
+---
+layout: distill
+title:  Principles of Programming Languages notes
+date:   2023-12-05 16:40:16
+description: notes for the course CS F301 Principles of Programming Languages
+tags: notes
+categories: notes
+
+authors:
+  - name: Shreyas V
+    url: "https://shreyasvinaya.github.io/folio/"
+    affiliations:
+      name: BITS Pilani, Goa Campus
+
+
+toc:
+  - name: Rust
+    subsections:
+      - name: Programming Concepts
+	  	subsections:
+		- name: Variables and Mutability
+		- name: Data Types
+		- name: Functions
+		- name: Comments
+		- name: Control Flow
+      - name: Ownership
+	    subsections:
+		- name: What is Ownership?
+		- name: References and Borrowing
+		- name: Slices
+
+
+# Below is an example of injecting additional post-specific styles.
+# If you use this post as a template, delete this _styles block.
+_styles: >
+  .fake-img {
+    background: #bbb;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 12px;
+  }
+  .fake-img p {
+    font-family: monospace;
+    color: white;
+    text-align: left;
+    margin: 12px 0;
+    text-align: center;
+    font-size: 16px;
+  }
+---
+
+# Rust
+## Programming Concepts
+### Variables and Mutability
+- Variables are immutable in Rust
+- Declare them as `mut` if you want to assign a new value to it
+- Variables are locked to the scope
+	- They can have diff values in diff scopes
+	```rust
+		let x = 5;
+		{
+			let x = 6;
+			println!("The value of x is: {x}");
+			# The value of x is: 6
+		}
+		println!("The value of x is: {x}");
+		# The value of x is: 5
+	```
+	- This is called shadowing
+- The keyword `let` can be used to change type of the variable
+	```rust
+		let spaces = "   ";
+		let spaces = spaces.len();
+	```
+
+### Data Types
+- Rust is a statically typed language, which means that it must know the types of all variables at compile time
+- You need not explicitly declare the variable type during declaration
+- Supports tuple destructuring like python
+- Memory is protected, incorrect index access is not allowed
+
+### Functions
+- Use `fn` keyword to declare a function
+- functions dont return values, they return expressions
+
+
+
