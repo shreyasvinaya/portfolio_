@@ -88,6 +88,12 @@ _styles: >
 - `while` is a conditional loop
 
 ## Ownership
+- Central concept that the compiler uses to manage memory safely. 
+- Each value has a variable that is its owner.
+- There can only be one owner at a time. When owner goes out of scope, value will be dropped (freed).
+- Borrowing allows accessing data without taking ownership via references. References are immutable by default to avoid data races.
+- Slices allow shared, mutable access to contiguous sequences like vectors. 
+
 ### What is Ownership?
 - Memory is managed through a system of ownership with a set of rules that the compiler checks at compile time
 - Ownership rules:
@@ -133,6 +139,32 @@ The concepts of ownership, borrowing, and slices ensure memory safety in Rust pr
 ### How are enums different from struct
 - Enums are different from structs because you can only have one variant of an enum value at a time
 - In an `enum`, each variant can have different types and amounts of associated data.
+
+
+### Enums:  
+- Enumerations can encode multiple variants for a type.
+- Variants can have different data associated with them.
+- Powerful pattern matching allows easy processing of different variants.
+- Great for state machines, error handling, and sending messages between parts of a system.
+
+## Packages and Crates:
+- Crates are compilation units in Rust - can produce library or binary.
+- Crates can be reused by importing them from other crates. 
+- Packages contain one or more crates for distribution.
+- Module system provides private/public boundary within crate.
+
+## Traits and Generics:
+- Traits define shared behavior/interfaces that types can implement.
+- Generics provide abstraction over types - functions/structs can work for multiple types.
+- Combined, they provide flexibility to make code work with multiple types.
+- Lifetimes explicitly annotate how references are valid.
+
+## Error Handling: 
+- Errors are core part of Rust philosophy. No exceptions.  
+- Enum error variants carry extra context.
+- ? operator handles propagating errors up call stack.
+- Idiomatic to expect and handle errors rather than ignore.
+
 
 ## Notes
 1. Getting Started -> Ignore mostly
