@@ -99,11 +99,53 @@ _styles: >
 - Stack only data:
     - fixed size
     - popped off the stack when scope ends
+- Benefits of Ownership:
+    - Prevents Memory Leaks
+    - Prevents Dangling pointers
+    - makes code more predictable
 
 ### References and Borrowing
 - References allow you to refer to some value without taking ownership of it
+- References are immutable by default but can be made mutable by using `&mut`
+- `&` is used to create a reference
+- We call having references as function parameters borrowing
+- Borrowing is used to allow multiple readers or one writer of data at a time
+- References must always be valid
+- Valid references:
+    - A reference to any value that is still in scope
+    - A reference to any value that has been moved to a new scope
+- Mutable references have one big restriction: if you have a mutable reference to a value, you can have no other references to that value.
+- Dangling references are not allowed in Rust
+- Dangerous references:
+    - A reference to a value that has gone out of scope
+    - A reference to a value that has been freed
 
 ### Slices
 - Slices let you reference a contiguous sequence of elements in a collection rather than the whole collection
+- Slice is a kind of reference, it does not have ownership
+- we can slice strings, arrays, vectors
 
-## References
+The concepts of ownership, borrowing, and slices ensure memory safety in Rust programs at compile time. 
+
+## Enums and Pattern Matching
+- Enums are a way of grouping related values so you can use them without spelling mistakes
+- Enums can be used to create custom data types
+### How are enums different from struct
+- Enums are different from structs because you can only have one variant of an enum value at a time
+- In an `enum`, each variant can have different types and amounts of associated data.
+
+## Notes
+1. Getting Started -> Ignore mostly
+2. Common programming concepts important
+3. Understanding ownership
+	Slice type is important
+4. Using structs to structure related data
+	1. mildly important chapter. just skim through it
+5. Enums and Pattern matching - VERY IMPORTANT
+6. Packaging, states and modules // VERY IMPORTANT - how is this different from c++
+7. Maps
+8. Error Handling Important //difference from Haskell
+9. Generic types, traits and Ifetime /MOST IMPORTANT CHAPTER
+10. Iterators and closures
+11. Smart pointers /IMPORTANT > Exiension of ownership model
+12. Just skim over concurrency, not very imp
