@@ -7,10 +7,10 @@ giscus_comments: true
 related_posts: false
 date: 2023-12-04 
 
-author:
+authors:
     - name: Shreyas V
       url: "https://shreyasvinaya.github.io/folio/"
-      affiliation:
+      affiliations:
         name: BITS Pilani, Goa Campus
 
 
