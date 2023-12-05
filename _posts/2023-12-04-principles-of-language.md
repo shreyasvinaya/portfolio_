@@ -17,6 +17,10 @@ toc:
       subsections:
         - name: Programming Concepts
         - name: Ownership
+        - name: Enums and Pattern Matching
+        - name: Packages and Crates
+        - name: Traits and Generics
+        - name: Error Handling
 
 
 # Below is an example of injecting additional post-specific styles.
