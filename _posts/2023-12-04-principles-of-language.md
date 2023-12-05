@@ -46,7 +46,7 @@ _styles: >
 - Declare them as `mut` if you want to assign a new value to it
 - Variables are locked to the scope
     - They can have diff values in diff scopes
-    <d-code block language="rust">
+    <d-code block>
         let x = 5;
         {
             let x = 6;
@@ -58,7 +58,7 @@ _styles: >
     </d-code>
     - This is called shadowing
 - The keyword `let` can be used to change type of the variable
-    <d-code block language="rust">
+    <d-code block>
         let spaces = "   ";
         let spaces = spaces.len();
     </d-code>
