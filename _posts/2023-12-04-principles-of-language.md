@@ -18,17 +18,7 @@ toc:
     - name: Rust
       subsections:
         - name: Programming Concepts
-          subsections:
-            - name: Variables and Mutability
-            - name: Data Types
-            - name: Functions
-            - name: Comments
-            - name: Control Flow
         - name: Ownership
-          subsections:
-            - name: What is Ownership?
-            - name: References and Borrowing
-            - name: Slices
 
 
 # Below is an example of injecting additional post-specific styles.
@@ -51,7 +41,7 @@ _styles: >
 
 ---
 
-## Rust
+# Rust
 ## Programming Concepts
 ### Variables and Mutability
 - Variables are immutable in Rust
