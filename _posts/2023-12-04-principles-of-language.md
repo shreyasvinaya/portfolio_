@@ -6,15 +6,12 @@ tags: notes distill
 giscus_comments: true
 date: 2023-12-04 
 
-authors:
+author:
   - name: Shreyas V
     url: "https://shreyasvinaya.github.io/folio/"
     affiliations:
       name: BITS Pilani, Goa Campus
-  - name: Test Author
-	url: "https://shreyasvinaya.github.io/folio/"
-	affiliations:
-	  name: BITS Pilani, Goa Campus
+
 
 
 toc:
