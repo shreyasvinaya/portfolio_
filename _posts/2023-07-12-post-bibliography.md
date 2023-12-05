@@ -8,26 +8,26 @@ date: 2023-12-04
 
 authors:
     - name: Shreyas V
-        url: "https://shreyasvinaya.github.io/folio/"
-        affiliations:
-            name: BITS Pilani, Goa Campus
+      url: "https://shreyasvinaya.github.io/folio/"
+      affiliations:
+        name: BITS Pilani, Goa Campus
 
 
 toc:
     - name: Rust
-        subsections:
-            - name: Programming Concepts
-                subsections:
-                    - name: Variables and Mutability
-                    - name: Data Types
-                    - name: Functions
-                    - name: Comments
-                    - name: Control Flow
-            - name: Ownership
-                subsections:
-                    - name: What is Ownership?
-                    - name: References and Borrowing
-                    - name: Slices
+      subsections:
+        - name: Programming Concepts
+          subsections:
+            - name: Variables and Mutability
+            - name: Data Types
+            - name: Functions
+            - name: Comments
+            - name: Control Flow
+        - name: Ownership
+          subsections:
+            - name: What is Ownership?
+            - name: References and Borrowing
+            - name: Slices
 
 
 # Below is an example of injecting additional post-specific styles.
