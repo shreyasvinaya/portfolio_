@@ -2,16 +2,19 @@
 layout: distill
 title: Principles of Programming Languages notes
 description: notes for the course CS F301 Principles of Programming Languages
-tags: notes
+tags: notes distill
 giscus_comments: true
 date: 2023-12-04 
-
 
 authors:
   - name: Shreyas V
     url: "https://shreyasvinaya.github.io/folio/"
     affiliations:
       name: BITS Pilani, Goa Campus
+  - name: Test Author
+	url: "https://shreyasvinaya.github.io/folio/"
+	affiliations:
+	  name: BITS Pilani, Goa Campus
 
 
 toc:
@@ -51,7 +54,7 @@ _styles: >
 
 ---
 
-# Rust
+## Rust
 ## Programming Concepts
 ### Variables and Mutability
 - Variables are immutable in Rust
