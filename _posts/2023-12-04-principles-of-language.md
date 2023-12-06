@@ -50,7 +50,7 @@ _styles: >
 - Declare them as `mut` if you want to assign a new value to it
 - Variables are locked to the scope
     - They can have diff values in diff scopes
-    <d-code block>
+    ```rust
         let x = 5;
         {
             let x = 6;
@@ -59,13 +59,13 @@ _styles: >
         }
         println!("The value of x is: {x}");
         # The value of x is: 5
-    </d-code>
+    ```
     - This is called shadowing
 - The keyword `let` can be used to change type of the variable
-    <d-code block>
+    ```rust
         let spaces = "   ";
         let spaces = spaces.len();
-    </d-code>
+    ```
 
 ### Data Types
 - Rust is a statically typed language, which means that it must know the types of all variables at compile time
