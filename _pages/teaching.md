@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 permalink: /teaching/
 title: teaching
@@ -23,4 +23,4 @@ nav_order: 5
 {% endif %}
 </div>
 
----
+--- -->
