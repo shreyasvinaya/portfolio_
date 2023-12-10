@@ -48,16 +48,20 @@
         - title: Drug Discovery
           contents:
             - Examining the usage of Large Language Models to generate and synthesize novel molecules for drug discovery
+        
         - title: Natural Language Processing
+          contents:
+            - Surveyed the usage of Large Language Models to generate questions and answers
 
         - title: Bioinformatics
           contents:
             - Surveyed the usage of BERT and Transformer based architectures to predict Protein Residue binding locations
             - Devised deep learning methods to Predict Protein Residue binding
         
-          contents:
-            - Surveyed the usage of Large Language Models to generate questions and answers
-
+        # - title: Molecular Machine Learning
+        #   contents:
+        #     - Surveyed the usage of Graph Neural Networks to predict Molecular Properties
+        #     - Surveyed the usage of Graph Neural Networks to generate novel molecules
     - title: Research Intern
       institution: Amrita Vishwa Vidyapeetham
       year: 2021-2023
@@ -74,7 +78,24 @@
 
     - title: Summer Intern
       institution: Central Electronics Engineering Research Institute , Chennai
-      year: Jun 22 - July 22
+      year: Jun 22 - Jul 22
+      description:
+        - Remote health workers lacked offline heart attack prediction tools.
+        - Developed an AI app for smartphones , working without internet , boosting timely interventions
+
+    - title: Research Intern
+      institution: Central Electronics Engineering Research Institute , Chennai
+      year: Feb 22 — May 22
+      description:
+        - Optimised Algorithmic Trading App to identify arbitrage opportunities to do a round trip trading with different currencies from 30min to 2sec
+
+    - title: Intern
+      institution: <a href="https://www.cisco.com">Cisco</a>
+      year: Jun 18 - Jan 19
+      description:
+        - Worked with Cisco and a group of 5 people to build <a href="https://solan.pythonanywhere.com/index.html">Solan</a>
+        - A web application that aims to promote learning by crowdsourcing the process of making question banks.
+
 
 - title: Open Source Projects
   type: time_table
@@ -82,6 +103,17 @@
     - title: <a href="https://github.com/deepchem/deepchem">Deepchem</a>
       year: 2023-now
       description: Democratizing Deep-Learning for Drug Discovery, Quantum Chemistry, Materials Science and Biology
+
+- title: Publications
+  type: time_table
+  contents:
+    - title: Predicting ATP binding sites in protein sequences using Deep Learning and Natural Language Processing
+      year: 2024
+      description: Published in 3rd Annual AAAI Workshop on AI to Accelerate Science and Engineering (AI2ASE)
+    - title: Speech to Equation Conversion using a PoE Tagger
+      year: 2022
+      description: Published in IEEE 7th International conference for Convergence in Technology (I2CT), 2022
+
 
 # - title: Honors and Awards
 #   type: time_table
