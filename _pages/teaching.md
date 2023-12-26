@@ -1,26 +1,12 @@
-<!-- ---
+---
 layout: page
 permalink: /teaching/
 title: teaching
 description: Materials for courses you taught. Replace this text with your description.
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
-<!-- _pages/teaching.md -->
-<div class="teaching">
-{%- if site.teaching %}
-  {% for year in site.teaching %}
-  <h2 class="year">{{ year }}</h2>
-  {% assign sorted_courses = site.teaching[year] | sort: "importance" %}
-  <!-- Generate cards for each course -->
-  <div class="grid">
-	{% for course in sorted_courses %}
-	  {% include projects.html %}
-	{% endfor %}
-  </div>
-  {% endfor %}
-{% endif %}
-</div>
+For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
 
---- -->
+Organize your courses by years, topics, or universities, however you like!
