@@ -1,7 +1,12 @@
 github_users:
-  - shreyasvinaya
+  - torvalds
+  - alshedivat
 
 github_repos:
-  - deepchem/deepchem
-  - shreyasvinaya/CS-F429-NLP
-  - shreyasvinaya/Paper-reviews
+  - alshedivat/al-folio
+  - twbs/bootstrap
+  - jekyll/jekyll
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - jpswalsh/academicons
+  - mathjax/MathJax
