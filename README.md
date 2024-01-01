@@ -229,6 +229,7 @@ $ git clone git@github.com:<your-username>/<your-repo-name>.git
 ---
 
 #### Local setup using Docker (Recommended)
+
 Using Docker to install Jekyll and Ruby dependencies is the easiest way.
 
 You need to take the following steps to get `al-folio` up and running on your local machine:
@@ -479,6 +480,7 @@ If you have a different question, please ask using [Discussions](https://github.
    [specific characters](https://github.com/jekyll/classifier-reborn/issues/194) you used in your posts. Also, the calculus for similar posts are
    made for every `post`, which means every page that uses `layout: post`, including the announcements. To change this behavior, simply add
    `related_posts: false` to the front matter of the page you don't want to display related posts on.
+
 7. **Q:** When trying to deploy, it's asking for github login credentials, which github disabled password authentication and it exits with an error. How to fix?     <br>
    **A:** Open .git/config file using your preferred editor. Change the `https` portion of the `url` variable to `ssh`. Try deploying again.
 
