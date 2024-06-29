@@ -1,6 +1,14 @@
 "Basa Pati":
   - firstname: ["Peeta", "P."]
     url: https://www.amrita.edu/faculty/peeta-pati/
+  
+"Agarwal":
+  - firstname: ["Swati"]
+    url: https://scholar.google.co.in/citations?hl=en&user=-zk-xD0AAAAJ
+
+"Bania":
+  - firstname: ["Karan"]
+    url: https://karannb.github.io
 
 # "Podolsky":
 #   - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
