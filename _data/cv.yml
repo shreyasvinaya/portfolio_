@@ -30,17 +30,33 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Intern
+    - title: Visiting Researcher Intern 
+      institution: Yale University
+      year: 2024-now
+      description:
+        - Conducting research on molecule generation models using geometric deep learning with Prof. Smita Krishnaswamy
+        - Developing novel algorithms to enhance molecular design efficiency
+    - title: Research Intern 
+      institution: Harvard Medical School
+      year: 2024-now
+      description:
+        - Investigating the neural mechanisms of language processing using AI models under Prof Gabriel Kreiman
+        - Applying advanced machine learning techniques to analyze neural data, contributing to a deeper understanding of language cognition
+    - title: Research Fellow
       institution: Deep Forest Sciences
       year: 2023-now
       description:
-        - Contributed to open-source drug discovery toolkit - Deepchem
-        - Migrated models to PyTorch, boosting user base by 92%
-        - Building Tools for AI aided Drug Discovery
-        # - title: Description 3.
-        #   contents:
-        #     - Sub-description 1.
-        #     - Sub-description 2.
+        - Developed tools for AI-aided retrosynthesis, molecule & materials discovery
+        - Built infrastructure to train Molecular LLMs
+        - Semifinalist at the Standard Industries Chemical Innovation Challenge, awarded prize money of $10,000
+        - Migrated models in the open-source drug discovery toolkit DeepChem from TensorFlow to PyTorch, increasing user base by 92%
+    - title: Product Engineering Intern
+      institution: Sprinklr
+      year: Summer 2024
+      description:
+        - Developed an ASR transcription evaluation pipeline using NLP techniques
+        - Created a custom scoring metric for evaluating transcripts in production, enhancing accuracy
+        - Improved productivity of product managers by 2x through streamlined evaluation processes
     - title: Student Researcher
       institution: APPCAIR, Birla Institute of Technology & Science, Pilani
       year: 2022-now
@@ -76,12 +92,12 @@
         - Explored and implemented Data anonymization techniques using Machine Learning
         - Developed AI/ML pipeline for real time data anonymization for process mining resulting in 30% performance improvement
 
-    - title: Summer Intern
-      institution: Central Electronics Engineering Research Institute , Chennai
-      year: Jun 22 - Jul 22
-      description:
-        - Remote health workers lacked offline heart attack prediction tools.
-        - Developed an AI app for smartphones , working without internet , boosting timely interventions
+    # - title: Summer Intern
+    #   institution: Central Electronics Engineering Research Institute , Chennai
+    #   year: Jun 22 - Jul 22
+    #   description:
+    #     - Remote health workers lacked offline heart attack prediction tools.
+    #     - Developed an AI app for smartphones , working without internet , boosting timely interventions
 
     - title: Research Intern
       institution: Pixis.ai
@@ -89,12 +105,12 @@
       description:
         - Optimised Algorithmic Trading App to identify arbitrage opportunities to do a round trip trading with different currencies from 30min to 2sec
 
-    - title: Intern
-      institution: <a href="https://www.cisco.com">Cisco</a>
-      year: Jun 18 - Jan 19
-      description:
-        - Worked with Cisco and a group of 5 people to build <a href="https://solan.pythonanywhere.com/index.html">Solan</a>
-        - A web application that aims to promote learning by crowdsourcing the process of making question banks.
+    # - title: Intern
+    #   institution: <a href="https://www.cisco.com">Cisco</a>
+    #   year: Jun 18 - Jan 19
+    #   description:
+    #     - Worked with Cisco and a group of 5 people to build <a href="https://solan.pythonanywhere.com/index.html">Solan</a>
+    #     - A web application that aims to promote learning by crowdsourcing the process of making question banks.
 
 
 - title: Open Source Projects
@@ -115,16 +131,12 @@
       description: Published in IEEE 7th International conference for Convergence in Technology (I2CT), 2022
 
 
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 1921
-#       items: 
-#         - Nobel Prize in Physics 
-#         - Matteucci Medal
-#     - year: 2029
-#       items: 
-#         - Max Planck Medal
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2024
+      items: 
+        - 3rd prize in ACM Goa Chapter's event PitchIt!
 
 - title: Academic Interests
   type: nested_list
