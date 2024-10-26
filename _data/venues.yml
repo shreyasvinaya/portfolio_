@@ -6,5 +6,12 @@
   url: https://ai-2-ase.github.io
   color: "#0056b3"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"arXiv":
+  url: https://arxiv.org
+  color: "#b31b1b"
+
+"NeurIPS":
+  url: https://nips.cc
+  color: "#3e8e9e"
+
+
